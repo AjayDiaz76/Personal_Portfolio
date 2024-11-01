@@ -1,0 +1,114 @@
+.proj-container {
+    padding: 3rem 0rem;
+    /* background-color: rgba(31, 31, 31, 0.492); */
+    
+}
+
+.proj-content { 
+    margin: 3rem 0rem;
+}
+
+.proj-head {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 400px;
+}
+
+.proj-icon {
+    font-size: 3.5rem;
+    color: #00e5ff;
+}
+
+.proj-one {
+    background-image: url('./assets/images/intback.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.proj-main {
+    background-color: rgba(1, 14, 14, 0.884);
+    margin: 2rem 0rem;
+    padding: 5rem 5rem;
+}
+
+.proj-main:hover {
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.341);
+}
+
+.proj-main p {
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+.proj-skill {
+    font-size: 1.7rem;
+    color: #0037ff;
+}
+
+.proj-main h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.proj-main a {
+    color: #ffffff;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.proj-main a:hover{
+    color: #2f51e9;
+}
+
+.pm-summery {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+
+}
+
+.proj-stack {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media (max-width: 750px) {
+    .proj-main h3 {
+        font-size: 2rem;
+    }
+
+    .proj-main {
+        padding: 2rem 3rem;
+    }
+
+    .proj-main p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .proj-main {
+        margin: 0rem 0rem;
+        padding: 1.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .proj-head {
+        font-size: 2rem;
+    }
+
+    .proj-main {
+        margin: 0rem 0rem;
+        padding: 1.5rem 1.2rem;
+    }
+
+    .proj-main p {
+        font-size: 1.2rem;
+    }
+}

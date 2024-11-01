@@ -1,0 +1,81 @@
+.edu-container {
+    background-position: center;
+    background-size: cover;
+    margin: 0rem 0rem;
+    padding: 3rem 0rem;
+    color: #ffffff;
+}
+
+.edu-head {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 400px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.edu-icon {
+    font-size: 3.5rem;
+    color: #00e5ff;
+}
+
+.my-edu {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+
+}
+
+.edu-pg {
+    font-size: 1.7rem;
+    background-color: rgba(47, 70, 70, 0.492);
+    border-radius: 25px;
+    margin: 1rem 3rem;
+    padding: 2rem;
+}
+
+.edu-pg p {
+    line-height: 2.5rem;
+    
+}
+
+.edu-ug {
+    font-size: 1.7rem;
+    background-color: rgba(47, 70, 70, 0.492);
+    border-radius: 25px;
+    margin: 1rem 3rem;
+    padding: 2rem;
+}
+
+.edu-ug p {
+    line-height: 2.5rem;
+}
+
+@media (max-width: 600px) {
+
+    .edu-pg {
+        font-size: 1.5rem;
+        margin: 1rem 1.5rem;
+        padding: 2rem 1rem;
+    }
+
+    .edu-ug {
+        font-size: 1.5rem;
+        margin: 1rem 1.5rem;
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .edu-head{
+        padding-top: 1.5rem;
+        font-size: 2rem;
+    }
+    .edu-pg {
+        font-size: 1.2rem;
+    }
+
+    .edu-ug {
+        font-size: 1.2rem;
+    }
+}

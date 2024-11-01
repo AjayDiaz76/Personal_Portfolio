@@ -1,0 +1,25 @@
+.ps-content {
+    color: #ffffff;
+    margin: 0rem 4rem;
+    padding: 3rem 2rem;
+    font-size: 1.4rem;
+    font-weight: 400px;
+    text-align: justify;
+    
+}
+
+.ps-m {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 499px) {
+    .ps-content {
+        margin: 1.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .ps-content h2{
+        font-size: 2rem;
+    }
+}

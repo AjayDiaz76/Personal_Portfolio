@@ -1,0 +1,132 @@
+.main-roo {
+        margin: 2rem 4rem;
+        padding: 5rem 0rem 17rem 0rem;
+        /* max-width: 1250px; */
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.cerf-icon{
+  font-size: 4rem;
+  color: #00e5ff;
+}
+
+.cerf-head h2{
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+
+
+.card {
+    font-size: 164px;
+    width: 300px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(84, 84, 84, 0.663);
+    border-radius: 20px;
+    box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 0 2px hsl(0deg 0% 0% / 0.075),
+      0 0 4px hsl(0deg 0% 0% / 0.075), 0 0 8px hsl(0deg 0% 0% / 0.075),
+      0 0 16px hsl(0deg 0% 0% / 0.075);
+    transform-origin: 10% 60%;
+  }
+  
+  .card-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: -120px;
+  }
+  
+  .splash {
+    background: rgba(255, 0, 68, 0.793);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    clip-path: path(
+      "M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z"
+    );
+    
+    
+  }
+
+  .spl-2 {
+    background: rgba(0, 238, 255, 0.793);
+  }
+  .spl-3{
+    background: rgba(255, 251, 0, 0.793);
+  }
+
+  .spl-4{
+    background: rgba(60, 255, 0, 0.793);
+    
+  }
+
+
+ 
+
+  @media screen and (min-width: 1025px) {
+     .card-1, .card-3 {
+      margin-left: -44%;
+    }
+    .card-2, .card-4 {
+    margin-left: 32rem;
+    }
+
+    .spl-1, .spl-3 {
+      margin-left: 10%;
+    }
+
+    .spl-2, .spl-4 {
+      margin-left: 50%;
+    }
+  }
+
+  @media (max-width:1025px){
+    .card-1, .card-3 {
+      margin-left: -1%;
+    }
+    .card-2, .card-4 {
+    margin-left: 0;
+    }
+
+    .spl-1, .spl-3 {
+      margin-left: 20%;
+    }
+
+    .spl-2, .spl-4 {
+      margin-left: 20%;
+    }
+  }
+
+  @media (max-width:550px){
+    .main-roo{
+      margin: 1rem 1rem 2rem 1rem;
+      padding: 0rem 0rem 7rem 0rem;
+    }
+
+    .card-container{
+      margin-top: 3rem;
+    }
+    
+    .card {
+      width: 200px;
+      height: 260px;
+    }
+
+    .cerf-fe img {
+      width: 160px;
+      height: 160px;
+    }
+  }

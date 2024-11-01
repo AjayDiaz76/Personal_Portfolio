@@ -1,0 +1,52 @@
+.intern-container {
+    background-color: rgba(47, 70, 70, 0.492);  
+    color: #ffffff;
+    padding: 0rem;
+}
+
+.intern-content {
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 400px; 
+}
+
+.my-intern {
+    margin: 2rem 0rem;
+    padding-top: 2rem;
+    padding-left: 9rem;
+    padding-bottom: 3rem;
+}
+
+.intern-head {
+    padding-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.intern-icon {
+    font-size: 3.5rem;
+    color: #00e5ff;
+}
+
+@media (max-width: 499px) {
+
+    .intern-container{
+        margin: 1.5rem 0.9rem;
+    }
+
+    .intern-content {
+        font-size: 1.2rem;
+    }
+
+    .my-intern {
+        margin: 3rem 1.5rem;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .intern-head {
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+}

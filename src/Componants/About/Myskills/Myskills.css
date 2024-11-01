@@ -1,0 +1,133 @@
+.skill-container{
+    padding: 1;
+}
+
+.main-skill {
+    font-size: 3.5rem;
+    color: #00e5ff;
+}
+
+.skill-head{
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 400px;
+    padding-top: 3rem;
+}
+
+.skill-content {
+    padding: 2rem 3rem 0rem 3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    
+}
+
+.skill-icon {
+    margin: 2rem 0;
+    padding: 2rem;
+    /* transform: translateY(100px);
+    transition: all 600ms ease-in; */
+    /* transition: width 0.3s ease, height 0.3s ease; */
+}
+
+.skill-container h3 {
+    padding: 1rem 0 0 0;
+}
+
+.last-row {
+    margin-top: -1rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    column-gap: 100px;
+}
+
+@media (max-width: 999px) {
+
+    .skill-content {
+        column-gap: 80px;
+        row-gap: 50px;
+
+    }
+
+    .skill-container h3 {
+        font-size: 1.5rem;
+    }
+
+    .skill-icon img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .last-row {
+        column-gap: 80px;
+        row-gap: 50px;
+    }
+
+}
+
+@media (max-width: 718px) {
+
+    .skill-container h3 {
+        font-size: 1.2rem;
+    }
+
+    .skill-content {
+        column-gap: 50px;
+        row-gap: 30px;
+    }
+
+    .skill-icon {
+        padding: 0rem;
+    }
+
+    .skill-icon img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .last-row {
+        column-gap: 50px;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .skill-head{
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .skill-content {
+        column-gap: 40px;
+        row-gap: 20px;
+    }
+
+    .skill-icon img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .last-row {
+        column-gap: 40px;
+        row-gap: 20px;
+        padding: 0rem 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .skill-content {
+        column-gap: 30px;
+    }
+
+    .skill-icon img{
+        width: 60px;
+        height: 60px;
+    }
+}
