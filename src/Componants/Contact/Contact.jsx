@@ -20,7 +20,7 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formDataToSend = new FormData(event.target);
-    formDataToSend.append("access_key", "0e5fb4bb-401f-44fa-8b18-83fdf90d9fdd");
+    formDataToSend.append("access_key", "KEY");
 
     const object = Object.fromEntries(formDataToSend);
     const json = JSON.stringify(object);
