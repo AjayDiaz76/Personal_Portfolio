@@ -12,12 +12,19 @@ const Project = () => {
     hidden: { scale: 1 },
   };
 
+  const prone = {
+    backgroundImage: 'url(./assets/images/intback.png)',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+  }
+
   return (
     <Element name='project'>
     <div className='proj-container'>
     <h2 className='proj-head'><span className='proj-icon'><PiProjectorScreenChartFill /></span> Project</h2>
       <div className='proj-content'>
-        <motion.div className='proj-one' 
+        <motion.div className='proj-one'
+        style={prone} 
         variants={variant}
         initial="hidden"
         whileInView="visible"
@@ -28,7 +35,7 @@ const Project = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 4 }}
         viewport={{ once: true, amount: 0.8 }}> 
-          <h3><a href="https://github.com/AjayDiaz76/E_Shop.git">E-Commerce Website</a></h3>
+          <h3><a href="https://github.com/AjayDiaz76/E_Shop.git"> E-Commerce Website</a></h3>
           <p className='pm-summery'>This project deals with developing a ‘E-Commerce Website’. It provides the user with a list of the various products 
             available for purchase in the store. For the convenience of online shopping, a shopping cart is provided to the user. 
             After the selection of the products, it is sent for the order confirmation process. The system is implemented using 

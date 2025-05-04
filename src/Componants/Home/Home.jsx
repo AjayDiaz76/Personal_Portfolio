@@ -28,18 +28,18 @@ const Home = () => {
         </p>
         <div className='icon-container'>
         <div className='tech-icon'>
-            <img src="./assets/images/react.png" alt="" />
+            <img src="./assets/images/react.png" alt="React" />
         </div>
         <div className='tech-icon-one'>
-            <img src="./assets/images/tryicon.png" alt="" />
+            <img src="./assets/images/tryicon.png" alt="HTML,CSS,Javascript" />
         </div>
         </div>
         </div>
       </div>
 
       <div className='home-img'>
-        <div>  
-          <img src="./assets/images/main_img.png" alt="" />
+        <div>
+          <img src="./assets/images/main_img.png" alt="ProfileImage" />
         </div>
       </div>
     </div>

@@ -3,11 +3,9 @@
     background-size: cover;
     margin: 0rem 0rem;
     padding: 3rem 0rem;
-    color: #ffffff;
 }
 
 .edu-head {
-    color: rgb(255, 255, 255);
     font-size: 2.5rem;
     font-weight: 400px;
     text-align: center;
@@ -16,7 +14,7 @@
 
 .edu-icon {
     font-size: 3.5rem;
-    color: #00e5ff;
+    color: #f30765e0;
 }
 
 .my-edu {
@@ -28,7 +26,7 @@
 
 .edu-pg {
     font-size: 1.7rem;
-    background-color: rgba(47, 70, 70, 0.492);
+    background-color: rgba(84, 84, 84, 0.362);
     border-radius: 25px;
     margin: 1rem 3rem;
     padding: 2rem;
@@ -41,7 +39,7 @@
 
 .edu-ug {
     font-size: 1.7rem;
-    background-color: rgba(47, 70, 70, 0.492);
+    background-color: rgba(84, 84, 84, 0.362);
     border-radius: 25px;
     margin: 1rem 3rem;
     padding: 2rem;
